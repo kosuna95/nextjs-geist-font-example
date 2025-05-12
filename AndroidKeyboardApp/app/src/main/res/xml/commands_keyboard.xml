@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="10%p"
-    android:keyHeight="60dp"
+    android:keyWidth="20%p"
     android:horizontalGap="0px"
-    android:verticalGap="0px">
-
-    <!-- Row 1: C1 to C5 -->
+    android:verticalGap="0px"
+    android:keyHeight="60dp">
     <Row>
-        <Key android:codes="101" android:keyLabel="C1" />
-        <Key android:codes="102" android:keyLabel="C2" />
-        <Key android:codes="103" android:keyLabel="C3" />
-        <Key android:codes="104" android:keyLabel="C4" />
-        <Key android:codes="105" android:keyLabel="C5" />
+        <Key android:codes="101" android:keyLabel="Ctrl+1"/>
+        <Key android:codes="102" android:keyLabel="Ctrl+2"/>
+        <Key android:codes="103" android:keyLabel="Ctrl+3"/>
+        <Key android:codes="104" android:keyLabel="Ctrl+4"/>
+        <Key android:codes="105" android:keyLabel="Ctrl+5"/>
     </Row>
-
-    <!-- Row 2: C6 to C9 -->
     <Row>
-        <Key android:codes="106" android:keyLabel="C6" />
-        <Key android:codes="107" android:keyLabel="C7" />
-        <Key android:codes="108" android:keyLabel="C8" />
-        <Key android:codes="109" android:keyLabel="C9" />
-        <Key android:codes="-5" android:keyLabel="Borrar" />
+        <Key android:codes="106" android:keyLabel="Ctrl+6"/>
+        <Key android:codes="107" android:keyLabel="Ctrl+7"/>
+        <Key android:codes="108" android:keyLabel="Ctrl+8"/>
+        <Key android:codes="109" android:keyLabel="Ctrl+9"/>
+        <Key android:codes="-5" android:keyLabel="DEL"/>
     </Row>
-
-    <!-- Row 3 -->
     <Row>
-        <Key android:codes="-3" android:keyLabel="Enter" android:keyEdgeFlags="right" />
-        <Key android:codes="-2" android:keyLabel="Cambiar" />
+        <Key android:codes="-2" android:keyLabel="ABC" android:keyWidth="60%p"/>
+        <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="40%p"/>
     </Row>
-
 </Keyboard>
